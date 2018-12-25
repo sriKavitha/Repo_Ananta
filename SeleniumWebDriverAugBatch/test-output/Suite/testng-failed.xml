@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="5" name="Test_FF(failed)">
+    <parameter name="usr" value="Admin"/>
+    <parameter name="pwd" value="demo123"/>
+    <parameter name="browserType" value="FF"/>
+    <classes>
+      <class name="TestNGEx.LoginParametersXml">
+        <methods>
+          <include name="login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestNGEx.LoginParametersXml -->
+    </classes>
+  </test> <!-- Test_FF(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="5" >
+	<test thread-count="5" name="Test_FF">
+		<parameter name="usr" value="Admin" />
+		<parameter name="pwd" value="demo123" />
+		<parameter name="browserType" value="FF" />
+		<classes>
+			<class name="TestNGEx.LoginParametersXml" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->
